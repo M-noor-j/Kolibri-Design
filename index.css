@@ -355,7 +355,7 @@ h5 {
 
 /* footer Css */
 .bg-footer {
-  background: #f7f7f7;
+  background: #f9f5f2;
   /* padding-top: 0.5rem; */
   padding-bottom: 5rem;
   /* margin-top: 5rem; */
@@ -421,21 +421,29 @@ h5 {
 }
 /* shape divider */
 .bg-shape-divider {
-  /* background: #ffffff; */
-  background-image: url(./pics/footer.png);
+ background-image: url(./pics/footer.png);
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-size: cover;
+ background-size: cover;
   padding: 20px 10%;
   position: relative;
   bottom: -20rem;
   height: 115px;
- 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: end;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  filter: drop-shadow(20px 40px 20px rgb(0, 0, 0));
 }
 
-.flex-shape-divider {
+
+
+.shape-divider-text{
+  font-size: 15px;
+
+}
+
+.shape-divider-end{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 3.9rem;
+  justify-content: end;
 }
