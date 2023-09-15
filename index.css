@@ -194,17 +194,17 @@ header {
   width: 320px;
   transition: 0.5s ease-in-out;
 }
-.bg-light-dark:hover {
+/* .bg-light-dark:hover {
   transform: scale(1.1);
-}
+} */
 .heading-card {
   font-size: 25px;
-  /* font-weight: bold; */
+  
 }
 .para-card {
   font-size: 14px;
   margin-top: 30px;
-  /* font-weight: bold; */
+
 }
 .btn-card-container {
   display: flex;
